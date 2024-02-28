@@ -1,0 +1,9 @@
+Scripts utilizados en consola
+CREATE USER 'edu_manage'@'localhost' IDENTIFIED BY 'edu_manage_2024';
+GRANT ALL PRIVILEGES ON *.* TO 'edu_manage'@'localhost';
+GRANT TRIGGER ON *.* TO 'edu_manage'@'localhost';
+GRANT CREATE ROUTINE, EXECUTE ON *.* TO 'edu_manage'@'localhost';
+GRANT CREATE VIEW, SELECT ON *.* TO 'edu_manage'@'localhost';
+FLUSH PRIVILEGES;
+
+Link del diagrama entidad relacion: https://drive.google.com/file/d/1NnZ5sRVBCIo-XIsncVhgmdnrT66N09S7/view?usp=sharing
